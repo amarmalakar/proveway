@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proveway UI design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="pricing-wrapper">
+      <div class="pricing-header">
+        <div class="line-container">
+          <span class="line"></span>
+        </div>
+        <div class="text-container">
+          <span class="text">YAY! It’s BOGO</span>
+        </div>
+      </div>
+
+      <section class="price-accordian-wrap" id="priceAccordianWrap">
+        <div class="price-accordian">
+          <div class="accordian-header" onclick="handleAccordian(this)">
+            <div class="accordian-head-container">
+              <div class="left">
+                <div class="accordian-content">
+                  <table class="table-wrapper">
+                    <tr>
+                      <td></td>
+                      <td>Size</td>
+                      <td>Colour</td>
+                    </tr>
+                    <tr>
+                      <td>#1</td>
+                      <td>
+                        <select name="size" id="size">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select name="colour" id="colour">
+                          <option value="Black">Black</option>
+                          <option value="Red">Red</option>
+                          <option value="Yellow">Yellow</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#2</td>
+                      <td>
+                        <select name="size" id="size">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                      </td>
+                      <td>
+                        <select name="colour" id="colour">
+                          <option value="Black">Black</option>
+                          <option value="Red">Red</option>
+                          <option value="Yellow">Yellow</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <input
+                  type="radio"
+                  name="product"
+                  id="product"
+                  class="radio-button"
+                />
+                <div class="">
+                  <p><b>1 Unit</b> <span class="badge">10% Off</span></p>
+                  <p>Standard Price</p>
+                </div>
+              </div>
+              <div class="">
+                <p>$10.00 <b>USD</b></p>
+                <p class="disabled-text">$24.00 USD</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-content">
+            <table class="table-wrapper">
+              <tr>
+                <td></td>
+                <td>Size</td>
+                <td>Colour</td>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="price-accordian">
+          <div class="price-accordian-tag">MOST POPULAR</div>
+          <div class="accordian-header" onclick="handleAccordian(this)">
+            <div class="accordian-head-container">
+              <div class="left">
+                <input
+                  type="radio"
+                  name="product"
+                  id="product"
+                  class="radio-button"
+                />
+                <div class="">
+                  <p><b>2 Unit</b> <span class="badge">20% Off</span></p>
+                </div>
+              </div>
+              <div class="">
+                <p>$18.00 <b>USD</b></p>
+                <p class="disabled-text">$24.00 USD</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-content">
+            <table class="table-wrapper">
+              <tr>
+                <td></td>
+                <td>Size</td>
+                <td>Colour</td>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="price-accordian">
+          <div class="accordian-header" onclick="handleAccordian(this)">
+            <div class="accordian-head-container">
+              <div class="left">
+                <input
+                  type="radio"
+                  name="product"
+                  id="product"
+                  class="radio-button"
+                />
+                <div class="">
+                  <p><b>3 Unit</b> <span class="badge">30% Off</span></p>
+                </div>
+              </div>
+              <div class="">
+                <p>$24.00 <b>USD</b></p>
+                <p class="disabled-text">$24.00 USD</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordian-content">
+            <table class="table-wrapper">
+              <tr>
+                <td></td>
+                <td>Size</td>
+                <td>Colour</td>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colour" id="colour">
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="total-price">
+          <p>Free Delivery</p>
+          <p>Total : $18.00 <b>USD</b></p>
+        </div>
+        <button class="cart-button">
+          <span class="icon">+</span>
+          Add to Cart
+        </button>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
